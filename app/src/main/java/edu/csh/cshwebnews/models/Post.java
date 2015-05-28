@@ -1,11 +1,15 @@
+/*
+ * Represents an individual post
+ * https://github.com/grantovich/CSH-WebNews/wiki/API%3A-Retrieving-Posts
+ * TODO: Write method to check if post is stickied
+ *
+ * Peter Zujko
+ */
+
 package edu.csh.cshwebnews.models;
 
 import java.util.List;
 
-/**
- * Represents a post
- * TODO: Write method to check if post is stickied
- */
 public class Post {
 
     private Integer id;

@@ -1,10 +1,15 @@
+/*
+ * Represents posts
+ * TODO: Add id class which contains ancestor ids, child ids,..etc
+ * https://github.com/grantovich/CSH-WebNews/wiki/API%3A-Retrieving-Posts
+ *
+ * Peter Zujko
+ */
+
 package edu.csh.cshwebnews.models;
 
 import java.util.List;
 
-/**
- * TODO: Add id class which contains ancestor ids, child ids,..etc
- */
 public class RetrievingPosts {
 
     private Posts posts;

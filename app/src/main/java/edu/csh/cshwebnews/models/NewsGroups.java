@@ -1,18 +1,22 @@
+/*
+ * Represents available newsgroups
+ * https://github.com/grantovich/CSH-WebNews/wiki/API%3A-Retrieving-Newsgroups
+ *
+ * Peter Zujko
+ */
+
 package edu.csh.cshwebnews.models;
 
 import java.util.List;
 
-/**
- * Represents newsgroups
- */
 public class NewsGroups {
 
-    private List<NewsGroup> newsGroupList;
+    private List<NewsGroup> newsgroups;
 
     private Meta meta;
 
     public List<NewsGroup> getNewsGroupList(){
-        return newsGroupList;
+        return newsgroups;
     }
 
     /**
@@ -22,7 +26,7 @@ public class NewsGroups {
         return meta.getLastSyncAt();
     }
 
-    private class NewsGroup {
+    public class NewsGroup {
 
         private Integer id;
 

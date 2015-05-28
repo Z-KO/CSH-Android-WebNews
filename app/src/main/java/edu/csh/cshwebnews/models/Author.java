@@ -1,8 +1,11 @@
+/*
+ * Represents the author of a post.
+ *
+ * Peter Zujko
+ */
+
 package edu.csh.cshwebnews.models;
 
-/**
- * Represents the author of a post.
- */
 public class Author {
 
     private String name;

@@ -1,0 +1,5 @@
+<account-authenticator xmlns:android="http://schemas.android.com/apk/res/android"
+    android:accountType="edu.csh.cshwebnews"
+    android:icon="@drawable/logo_black_small"
+    android:smallIcon="@drawable/logo_black_small"
+    android:label="@string/label"/>

@@ -1,0 +1,55 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@drawable/background">
+
+    <WebView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/web_oauth"
+        android:visibility="gone"/>
+    
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:contentDescription="CSH Logo"
+        android:src="@drawable/logo_black"
+        android:id="@+id/image_logo"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/btn_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp"
+        android:paddingLeft="35dp"
+        android:paddingRight="35dp"
+        android:paddingTop="15dp"
+        fancy:borderColor="@color/black"
+        fancy:borderWidth="1dp"
+        fancy:defaultColor="@color/transparent"
+        fancy:focusColor="@color/black"
+        fancy:iconPosition="left"
+        fancy:radius="30dp"
+        fancy:text="Login"
+        fancy:textColor="@color/black"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="46dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="WebNews"
+        android:id="@+id/textView"
+        android:textColor="@color/black"
+        android:layout_below="@+id/image_logo"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+
+
